@@ -9,6 +9,18 @@ The [technical support](https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/blob/m
 conda create --name mphy0041 -c conda-forge numpy matplotlib tensorflow=2.6 pytorch=1.10
 ```
 
+## Jupyter notebooks
+Notebook can be installed within the [`mphy0041` conda environment](../docs/conda.md):
+
+``` bash
+conda activate mphy0041 \
+ && conda install -c conda-forge notebook
+```
+
+Alternatively, create a standalone conda environment instead to manage a lighter environment without the deep learning packages.
+
+
+
 ## Optional - Install TensorFlow or PyTorch in `mphy0041` with GPU support
 >**Note:** the following instructions for installation depend on the available CUDA versions.
 
