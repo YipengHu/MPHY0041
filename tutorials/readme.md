@@ -1,35 +1,31 @@
 # Deep Learning Tutorials
 The tutorials require a few dependencies, numpy, matplotlib, in addition to one of the two deep learning libraries. Individual tutorials may also require other libraries which will be specified in the readme.md in individual tutorial folders (see links below). Conda is recommended to manage the required dependencies. 
 
-It is not mandatory, in tutorials or assessed coursework, to use any specific development, package or environment management tools. However, technical support in this module is available for the setups detailed in [Supported Development Environment](docs/env.md). 
+It is not mandatory, in tutorials or assessed coursework, to use any specific development, package or environment management tools. However, technical support in this module is available for the setups detailed in [Supported Development Environment](../docs/env.md). 
 
 ## Deep learning libraries
 Module tutorials are implemented in both [TensorFlow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/). 
 
-Learning materials for TensorFlow for Medical Imaging are recommended in [Learning TensorFlow for Medical Imaging](docs/tensorflow.md).
+Learning materials for TensorFlow for Medical Imaging are recommended in [Learning TensorFlow for Medical Imaging](../docs/tensorflow.md).
 
-Learning materials for PyTorch for Medical Imaging are recommended in [Learning PyTorch for Medical Imaging](docs/pytorch.md).
+Learning materials for PyTorch for Medical Imaging are recommended in [Learning PyTorch for Medical Imaging](../docs/pytorch.md).
 
-## Quick start
+## Get started
 To run the tutorial examples, follow the instruction below. 
-For the first time only, create an environment:
-``` bash
-conda create --name mphy0041 -c conda-forge numpy matplotlib tensorflow=2.6 pytorch=1.10
-```
+For the first time only, create a [conda environment `mphy0041`](../docs/env.md).  
+>Note: some tutorials may need installing additional tools, please read readme.md files in individual subfolder.
 
 Next, activate the created `mphy0041` environment:
 ``` bash
 conda activate mphy0041
 ```
 
-Then, `cd` to each individual tutorial subfolder as the working directory.
-
-Run all the code from this working directory, e.g.:
+Then, `cd` to each individual tutorial subfolder as the working directory, e.g.:
 ``` bash
 cd tutorials/classification  # e.g. `cd segmentation`
 ```
 
-Usually, run the `data.py` script to download tutorial data: 
+Usually, run the `data.py` script first to download tutorial data: 
 ``` bash
 python data.py
 ```
@@ -51,17 +47,17 @@ python visualise.py
 ## Tutorials
 
 ### Image classification
-[Anatomical structure classification on 2D ultrasound images](tutorials/classification)
+[Anatomical structure classification on 2D ultrasound images](/classification)
 
 ### Image segmentation
-[Segmentation of organs on 3D MR images](tutorials/segmentation)
+[Segmentation of organs on 3D MR images](/segmentation)
 
 ### Image registration*
-[Unsupervised registration of CT image slices](tutorials/registration)
+[Unsupervised registration of CT image slices](/registration)
 
 ### Image synthesis*
-[Ultrasound image simulation](tutorials/synthesis)
+[Ultrasound image simulation](/synthesis)
 
 
 ## Formative assessment
-A list of tasks are detailed in the [Formative Assessment](docs/formative.md). Complete them for individual tutorials.
+A list of tasks are detailed in the [Formative Assessment](../docs/formative.md). Complete them for individual tutorials.
