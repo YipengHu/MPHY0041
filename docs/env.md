@@ -31,12 +31,12 @@ conda install tensorflow-gpu -c anaconda
 
 For PyTorch users, see [PyTorch install guide](https://pytorch.org/get-started/locally/), e.g.:
 ```bash
-conda install pytorch cudatoolkit=10.1 -c pytorch
+conda install pytorch cudatoolkit=10.2 -c pytorch
 ```
 
 
 ## Docker 
-A [docker image](https://hub.docker.com/repository/docker/yipenghu/ucl-module-ubuntu) is provided with conda and git installed on Ubuntu 20.04. Alternatively, a [Dockerfile](../Dockerfile) is also provided. See more details and support in the [official Docker documentation](https://docs.docker.com/).
+Ubuntu 20.04 [Docker images](https://hub.docker.com/repository/docker/yipenghu/ucl-module-ubuntu) are available. Alternatively, a [Dockerfile](../Dockerfile) is also provided. See more details and support in the [official Docker documentation](https://docs.docker.com/).
 
 
 ## Cloud service
