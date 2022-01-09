@@ -47,16 +47,16 @@ python visualise.py
 ## Tutorials
 
 ### Image classification
-[Anatomical structure classification on 2D ultrasound images](/classification)
+[Anatomical structure classification on 2D ultrasound images](./classification)
 
 ### Image segmentation
-[Segmentation of organs on 3D MR images](/segmentation)
+[Segmentation of organs on 3D MR images](./segmentation)
 
 ### Image registration*
-[Unsupervised registration of CT image slices](/registration)
+[Unsupervised registration of CT image slices](./registration)
 
 ### Image synthesis*
-[Ultrasound image simulation](/synthesis)
+[Ultrasound image simulation](./synthesis)
 
 
 ## Formative assessment
