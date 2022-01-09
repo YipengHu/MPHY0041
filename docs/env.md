@@ -36,7 +36,17 @@ conda install pytorch cudatoolkit=10.2 -c pytorch
 
 
 ## Docker 
-Ubuntu 20.04 [Docker images](https://hub.docker.com/repository/docker/yipenghu/ucl-module-ubuntu) are available. Alternatively, a [Dockerfile](../Dockerfile) is also provided. See more details and support in the [official Docker documentation](https://docs.docker.com/).
+Ubuntu 20.04 [Docker images](https://hub.docker.com/repository/docker/yipenghu/ucl-module-ubuntu) are available. Alternatively, a [Dockerfile](../Dockerfile) is also provided. See more details and support in the [official Docker documentation](https://docs.docker.com/).  
+
+Download the pre-built Docker image:
+```bash
+sudo docker pull yipenghu/ucl-module-ubuntu:minimal 
+```
+Create abd run a container named `mphy0041` in its interactive bash:
+```bash
+sudo docker run --name mphy0041 -ti yipenghu/ucl-module-ubuntu:minimal bash
+```
+Within the container, clone this repositry and create the conda environment...
 
 
 ## Cloud service
