@@ -61,3 +61,7 @@ python visualise.py
 
 ### Image synthesis*
 [Ultrasound image simulation](tutorials/synthesis)
+
+
+## Formative assessment
+A list of tasks are detailed in the [Formative Assessment](docs/formative.md). Complete them for individual tutorials.
