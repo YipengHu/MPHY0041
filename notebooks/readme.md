@@ -1,4 +1,4 @@
 # Jupyter Notebooks
-Some coding tutorials and exercises require Jupyter Notebooks with the following dependencies. 
+[Jupyter Notebooks](https://jupyter.org/) are useful for interactive development of Python code. It can be installed within the [`mphy0041` conda environment](../docs/conda.md).
 
-## Install Jupyter Notebook
+The notebooks available in this module is summarised as follows.

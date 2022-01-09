@@ -11,8 +11,8 @@ Learning materials for TensorFlow for Medical Imaging are recommended in [Learni
 Learning materials for PyTorch for Medical Imaging are recommended in [Learning PyTorch for Medical Imaging](docs/pytorch.md).
 
 ## Quick start
-To run the tutorial examples, follow the instruction below.
-For the first time only, create the environment:
+To run the tutorial examples, follow the instruction below. 
+For the first time only, create an environment:
 ``` bash
 conda create --name mphy0041 -c conda-forge numpy matplotlib tensorflow=2.6 pytorch=1.10
 ```
