@@ -19,12 +19,12 @@ This repository contains coding tutorials and exercises based on Python. While a
 For technical support with coding environment, please read the [Supported development environment for Python](https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/blob/main/docs/dev_env_python.md).
 
 
-## 2. Jupyter Notebook
-Jupyter notebooks are archived in the [notebooks] folder. [Get started with the Jupyter notebook](notebooks/readme.md).
+## 2. Jupyter notebooks
+Jupyter notebooks are archived in the [notebooks](./notebooks) folder. [Get started with the Jupyter notebook](notebooks/readme.md).
 
 
 ## 3. Deep learning tutorials
-Deep learning tutorials are in Python scripts, in the [tutorials](tutorials) folder.
+Deep learning tutorials are in Python scripts, in the [tutorials](./tutorials) folder.
 [Get started with the deep learning tutorials](tutorials/readme.md).
 
 
