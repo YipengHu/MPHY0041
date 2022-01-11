@@ -42,11 +42,11 @@ Download the pre-built Docker image:
 ```bash
 sudo docker pull yipenghu/ucl-module-ubuntu:minimal 
 ```
-Create abd run a container named `mphy0041` in its interactive bash:
+Create and run a container named `mphy0041` in its interactive bash:
 ```bash
 sudo docker run --name mphy0041 -ti yipenghu/ucl-module-ubuntu:minimal bash
 ```
-Within the container, clone this repositry and create the conda environment...
+Within the container, follow the above to clone this repositry and create the conda environment.
 
 
 ## Cloud service
