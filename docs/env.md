@@ -6,7 +6,7 @@ The [technical support](https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/blob/m
 - [Install Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 - Create a module environment `mphy0041`.
 ```bash
-conda create --name mphy0041 -c conda-forge numpy matplotlib tensorflow=2.10 pytorch=1.10
+conda create --name mphy0041 -c conda-forge numpy matplotlib tensorflow=2.10 pytorch=1.12
 ```
 
 ## Jupyter notebooks
