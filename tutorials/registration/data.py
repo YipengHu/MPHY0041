@@ -11,7 +11,7 @@ if not os.path.exists(DATA_PATH):
     os.makedirs(DATA_PATH)
 
 print('Downloading and extracting data...')
-url = 'https://weisslab.cs.ucl.ac.uk/WEISSTeaching/datasets/-/archive/hn2dct/datasets-hn2dct.zip' 
+url = 'https://github.com/yipenghu/datasets/archive/refs/heads/hn2dct.zip' 
 r = requests.get(url,allow_redirects=True)
 temp_file = 'temp.zip'
 _ = open(temp_file,'wb').write(r.content)
