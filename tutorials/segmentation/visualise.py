@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-path_to_data = './data/datasets-promise12'
+path_to_data = './data/promise12-data'
 path_to_save = './result' 
 
 # to plot example slices of segmentation results

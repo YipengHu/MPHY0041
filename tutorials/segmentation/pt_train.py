@@ -7,7 +7,7 @@ import numpy as np
 
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 use_cuda = torch.cuda.is_available()
-folder_name = './data/datasets-promise12'
+folder_name = './data/promise12-data'
 RESULT_PATH = './result'
 
 ## network class

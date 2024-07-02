@@ -8,7 +8,7 @@ import numpy as np
 
 
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
-path_to_data = './data/datasets-promise12'
+path_to_data = './data/promise12-data'
 RESULT_PATH = './result' 
 
 ## Define functions for network layers

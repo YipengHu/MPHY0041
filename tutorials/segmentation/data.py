@@ -20,7 +20,7 @@ with zipfile.ZipFile(temp_file,'r') as zip_obj:
     zip_obj.extractall(DATA_PATH)
 os.remove(temp_file)
 print('Done.')
-print('Promise12 data downloaded: %s' % os.path.abspath(os.path.join(DATA_PATH,'datasets-promise12')))
+print('Promise12 data downloaded: %s' % os.path.abspath(os.path.join(DATA_PATH,'promise12-data')))
 
 if not os.path.exists(RESULT_PATH):
     os.makedirs(RESULT_PATH)
