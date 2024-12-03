@@ -14,9 +14,9 @@
 This repository contains coding tutorials and exercises based on Python. While assuming basic experience in Python programming, some learning materials are aummarised in the [docs](docs) folder.
 
 - [A Roadmap to Learning Python and Machine Learning by Yourself](docs/python_ml.md).
-- _Optional_: Some basics use of Git is summarised in [Work with Git](https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/blob/main/docs/dev_env_git.md)
+- _Optional_: Some basics use of Git is summarised in [Work with Git](https://github.com/YipengHu/MPHY0030/blob/main/docs/dev_env_git.md)
 
-For technical support with coding environment, please read the [Supported development environment for Python](https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/blob/main/docs/dev_env_python.md).
+For technical support with coding environment, please read the [Supported development environment for Python](https://github.com/YipengHu/MPHY0030/blob/main/docs/dev_env_python.md).
 
 
 ## 2. Jupyter notebooks

@@ -73,7 +73,7 @@ Virtual environments or cloud services, such as Anaconda and Colab, may have the
 > Do something you want.
 
 There are many open-source projects, some examples below. Run the code and change the code to do something different. 
-* [Tutorials in a UCL Module MPHY0030](https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/tree/main/tutorials)
+* [Tutorials in a UCL Module MPHY0030](https://github.com/YipengHu/MPHY0030/tree/main/tutorials)
 * [Examples on geeksforgeeks.org](https://www.geeksforgeeks.org/python-programming-examples/)
 * Example code in tutorials, e.g. [those on w3school.com](https://www.w3schools.com/python/python_examples.asp) 
 

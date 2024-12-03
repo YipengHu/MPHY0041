@@ -1,7 +1,7 @@
 # Deep Learning Tutorials
 The tutorials require a few dependencies, numpy, matplotlib, in addition to one of the two deep learning libraries. Individual tutorials may also require other libraries which will be specified in the readme.md in individual tutorial folders (see links below). Conda is recommended to manage the required dependencies. 
 
-It is not mandatory, in tutorials or assessed coursework, to use any specific development, package or environment management tools. However, [technical support]((https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/blob/main/docs/dev_env_python.md)) is available for the setups detailed in [Development Environment](../docs/env.md). 
+It is not mandatory, in tutorials or assessed coursework, to use any specific development, package or environment management tools. However, [technical support](https://github.com/YipengHu/MPHY0030/blob/main/docs/dev_env_python.md) is available for the setups detailed in [Development Environment](../docs/env.md). 
 
 ## Deep learning libraries
 Module tutorials are implemented in both [TensorFlow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/). 

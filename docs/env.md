@@ -1,6 +1,6 @@
 
 # Development Environment
-The [technical support](https://weisslab.cs.ucl.ac.uk/YipengHu/mphy0030/-/blob/main/docs/dev_env_python.md) is available with conda.  
+The [technical support](https://github.com/YipengHu/MPHY0030/blob/main/docs/dev_env_python.md) is available with conda.  
 
 ## Conda
 - [Install Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
