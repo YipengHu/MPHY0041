@@ -9,7 +9,7 @@ import utils
 
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 use_cuda = torch.cuda.is_available()
-filename = 'data/images0_60x80_norm.h5'
+filename = 'data/fetusphan.h5'
 RESULT_PATH = './result'
 
 ## networks

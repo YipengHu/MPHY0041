@@ -9,7 +9,7 @@ import h5py
 RESULT_PATH = 'result'
 
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
-filename = './data/ultrasound_50frames.h5'
+filename = './data/fetal.h5'
 h5_file =  h5py.File(filename,'r')
 frame_size = h5_file['/frame_size']
 frame_size = [frame_size[0][0],frame_size[1][0]]

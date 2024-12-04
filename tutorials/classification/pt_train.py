@@ -8,7 +8,7 @@ import h5py
 
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 use_cuda = torch.cuda.is_available()
-filename = './data/ultrasound_50frames.h5'
+filename = './data/fetal.h5'
 RESULT_PATH = './result'
 
 ## build a vgg-16 network class

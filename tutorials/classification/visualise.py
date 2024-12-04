@@ -6,7 +6,7 @@ import h5py
 from matplotlib import pyplot as plt
 
 
-filename = './data/ultrasound_50frames.h5'
+filename = './data/fetal.h5'
 h5_file = h5py.File(filename, 'r')
 
 # inspect nFrm frames from nSbj subjects

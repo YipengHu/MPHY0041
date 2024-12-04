@@ -1,19 +1,28 @@
 
 import os
+import shutil
 import requests
-
+import zipfile
 
 DATA_PATH = './data'
 RESULT_PATH = './result'
 
-if not os.path.exists(DATA_PATH):
-    os.makedirs(DATA_PATH)
+if os.path.exists(DATA_PATH):
+    shutil.rmtree(DATA_PATH)
+os.mkdir(DATA_PATH)
 
 print('Downloading and extracting data...')
-url = 'https://weisslab.cs.ucl.ac.uk/WEISSTeaching/datasets/raw/fetal/ultrasound_50frames.h5' 
+url = 'https://github.com/YipengHu/datasets/raw/refs/heads/fetal/fetal.zip' 
 r = requests.get(url,allow_redirects=True)
-filename = os.path.join(DATA_PATH,'ultrasound_50frames.h5')
-_ = open(filename,'wb').write(r.content)
+temp_file = 'temp.zip'
+_ = open(temp_file,'wb').write(r.content)
+
+with zipfile.ZipFile(temp_file, 'r') as zip_ref:
+    zip_ref.extractall(DATA_PATH)
+os.remove(temp_file)
+print('Done.')
+
+filename = os.path.join(DATA_PATH,'fetal.h5')
 print('Done.')
 print('Image and label data downloaded: %s' % filename)
 
