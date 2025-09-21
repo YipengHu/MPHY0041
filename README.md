@@ -2,7 +2,7 @@
 [UCL Module](https://www.ucl.ac.uk/module-catalogue/modules/machine-learning-in-medical-imaging-MPHY0041) | [MPBE](https://www.ucl.ac.uk/medical-physics-biomedical-engineering/) | [UCL Moodle Page](https://moodle.ucl.ac.uk)
 >Term 1
 
-This is the repository for the deep learning part of the module.
+This repository is for the deep learning part of the module.
 
 ## 1. Development environments
 This repository contains coding tutorials and exercises based on Python. While assuming basic experience in Python programming, learning materials are summarised in the [docs](docs) folder. 
@@ -10,8 +10,8 @@ This repository contains coding tutorials and exercises based on Python. While a
 - The supported development environment tools are summarised in module [development environment](docs/env.md).
 - For a refresher, have a look at [A Roadmap to Learning Python and Machine Learning by Yourself](docs/python_ml.md).
 - Module tutorials are implemented in both [TensorFlow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/). 
-    - Learning materials for TensorFlow for Medical Imaging are recommended in [Learning TensorFlow for Medical Imaging](docs/tensorflow.md).
-    - Learning materials for PyTorch for Medical Imaging are recommended in [Learning PyTorch for Medical Imaging](docs/pytorch.md).
+    - [Learning TensorFlow for Medical Imaging](docs/tensorflow.md).
+    - [Learning PyTorch for Medical Imaging](docs/pytorch.md).
 
 ## 2. Deep learning tutorials
 Deep learning tutorials are in Python scripts, in the [tutorials](./tutorials) folder. 
@@ -30,5 +30,5 @@ A collection of books and research papers, relevant to deep learning for medical
 
 |Name                 | Email                       | Role                    |
 |---------------------|-----------------------------|-------------------------|
-|Andre Altmann        | <a.altmann@ucl.ac.uk>       | Module Lead             |
 |Yipeng Hu            | <yipeng.hu@ucl.ac.uk>       | Lecturer                |
+|Andre Altmann        | <a.altmann@ucl.ac.uk>       | Module Lead             |

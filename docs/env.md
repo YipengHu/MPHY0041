@@ -10,8 +10,9 @@ A Linux/Unix-based operating system:
 - [MacOS Terminal](https://support.apple.com/guide/terminal)
 
 
-## Micromamba
+## Micromamba environments
 - [Install Micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
+
 - Create a module PyTorch environment `mphy0041-pt`.
 ```bash
 micromamba create -n mphy0041-pt python=3.12
@@ -27,7 +28,10 @@ micromamba deactivate
 
 - Create a module TensorFlow environment `mphy0041-tf`.
 ```bash
-micromamba create --name mphy0041-tf -c pytorch numpy matplotlib requests pytorch
+micromamba create -n mphy0041-tf python=3.12
+micromamba activate mphy0041-tf  
+pip install tensorflow==2.16.1  
+pip install matplotlib 
 ```
 
 
