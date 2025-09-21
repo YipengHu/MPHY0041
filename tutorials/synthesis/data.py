@@ -23,7 +23,6 @@ os.remove(temp_file)
 print('Done.')
 
 filename = os.path.join(DATA_PATH,'fetusphan.h5')
-print('Done.')
 print('Image and label data downloaded: %s' % filename)
 
 if not os.path.exists(RESULT_PATH):
