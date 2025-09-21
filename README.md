@@ -5,24 +5,26 @@
 This is the repository for the deep learning part of the module.
 
 ## 1. Development environments
-This repository contains coding tutorials and exercises based on Python. While assuming basic experience in Python programming, learning materials are summarised in the [docs](docs) folder. For a refresher, have a look at [A Roadmap to Learning Python and Machine Learning by Yourself](docs/python_ml.md).
+This repository contains coding tutorials and exercises based on Python. While assuming basic experience in Python programming, learning materials are summarised in the [docs](docs) folder. 
 
-The following development environment tools are supported:
-- A Linux/Unix-based operating system: 
-    - Linux distros: e.g. [Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop), [Debian](https://www.debian.org/releases/stable/installmanual)
-    - [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) 
-    - [ChromeOS with Linux turned on](https://support.google.com/chromebook/answer/9145439?)  
-    - [MacOS Terminal](https://support.apple.com/guide/terminal)
-- Micromamba: see [module development environments](docs/env.md)
-- Visual Studio Code: [Install VSCode](https://code.visualstudio.com/docs) and [Step-by-step tutorial](https://code.visualstudio.com/docs/python/python-tutorial). https://code.visualstudio.com/docs/python/python-tutorial
-- _Optional_: Basics use of Git with GitHub repositories: e.g. [Work with Git](https://github.com/YipengHu/MPHY0030/blob/main/docs/dev_env_git.md)
+- The supported development environment tools are summarised in module [development environment](docs/env.md).
+- For a refresher, have a look at [A Roadmap to Learning Python and Machine Learning by Yourself](docs/python_ml.md).
+- Module tutorials are implemented in both [TensorFlow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/). 
+    - Learning materials for TensorFlow for Medical Imaging are recommended in [Learning TensorFlow for Medical Imaging](docs/tensorflow.md).
+    - Learning materials for PyTorch for Medical Imaging are recommended in [Learning PyTorch for Medical Imaging](docs/pytorch.md).
 
 ## 2. Deep learning tutorials
-Deep learning tutorials are in Python scripts, in the [tutorials](./tutorials) folder.
-[Get started with the deep learning tutorials](tutorials/readme.md).
+Deep learning tutorials are in Python scripts, in the [tutorials](./tutorials) folder. 
+Individual tutorials may also require other libraries which will be specified in the readme.md in individual tutorial folders (see links below).
+- Image classification: [Anatomical structure classification on 2D ultrasound images](tutorials/classification)
+- Image segmentation: [Segmentation of organs on 3D MR images](tutorials/segmentation)
+- Image registration: [Unsupervised registration of CT image slices](tutorials/registration)
+- Image synthesis: [Ultrasound image simulation](tutorials/synthesis)
 
+## 3. Formative assessment
+A list of tasks are detailed in the [Formative Assessment](docs/formative.md). Complete them for individual tutorials.
 
-## 3. Reading list
+## 4. Reading list
 A collection of books and research papers, relevant to deep learning for medical image analysis, is provided in the [Reading List](docs/reading.md).
 
 
