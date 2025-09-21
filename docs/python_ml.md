@@ -1,5 +1,7 @@
 # A Roadmap to Learning Python and Machine Learning by Yourself
 
+Yipeng Hu (yipeng.hu@ucl.ac.uk) 2016-2025
+
 _All materials in this Roadmap are freely available online._
 
 ## Content
@@ -9,14 +11,14 @@ _All materials in this Roadmap are freely available online._
     1.3. [Basic language reference](#basic-language-reference)   
     1.4. [Numerical computing packages](#numerical-computing-packages)  
     1.5. [Hands-on experience](#hands-on-experience)  
-    1.6. [Search for help](#search-for-help)  
+    1.6. [Search (or chat) for help](#search-for-help)  
 
 2. Machine learning with Python  
-    1.1. [Machine learning books](#machine-learning-books)  
-    1.2. [The scikit-learn package](#the-scikit-learn-package)  
-    1.3. [Deep learning](#deep-learning)  
-    1.4. [TensorFlow or PyTorch](#tensorflow-or-pytorch)  
-    1.5. [Example neural networks](#example-neural-networks)  
+    2.1. [Machine learning books](#machine-learning-books)  
+    2.2. [The scikit-learn package](#the-scikit-learn-package)  
+    2.3. [Deep learning](#deep-learning)  
+    2.4. [TensorFlow or PyTorch](#tensorflow-or-pytorch)  
+    2.5. [Example neural networks](#example-neural-networks)  
 
 
 ________
@@ -30,17 +32,17 @@ ________
 You may never need command line tools by using a good IDE (see below), but it is useful to learn some commands for many reasons. And, you can develop Python programmes entirely in command line.  
 * On Linux, e.g. [Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 * On MacOS, use the app [Terminal](https://support.apple.com/en-gb/guide/terminal/welcome/mac)
-* On ChromeOS, use enable [Linux](https://support.google.com/chromebook/answer/9145439), then follow the Linux tutorial above.
-* On Windows, there are many options, include 
+* On ChromeOS, enable [Linux](https://support.google.com/chromebook/answer/9145439), then follow the Linux tutorial above.
+* On Windows, there are many options, including 
   * [Windows Subsystem Linux](https://docs.microsoft.com/en-us/windows/wsl/), for a transferable Linux/Unix experience, or 
   * [Command Prompt or PowerShell](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands), after installing a [Python app in the Windows App Store](https://www.microsoft.com/en-gb/search/shop/apps?q=Python)
 
-> Set up your own (integrated) development environment. Cross-platform options include the following - browse a simple tutorial for your choice.  
+> Set up your own integrated development environment (IDE). Cross-platform options are growing - browse a simple tutorial for your choice.  
 * [Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * A code editors and command line  
 
-_Optional:_ Consider to use a virtual environment to manage your multiple projects, e.g. using the [Conda environment](https://docs.conda.io/en/latest/). However, you can skip this now and come back when you grow familiar with Python.  
+_Optional:_ Consider using a virtual environment to manage your multiple projects, e.g. using the [Conda environment](https://docs.conda.io/en/latest/). However, you can skip this now and come back when you grow familiar with Python.  
 
 
 ------------------
@@ -70,19 +72,20 @@ Virtual environments or cloud services, such as Anaconda and Colab, may have the
 
 ------------------
 ### <a name="hands-on-experience"></a>1.5 Hands-on experience
-> Do something you want.
+> Do something you want, perhaps by changing the existing examples and tutorials.
 
-There are many open-source projects, some examples below. Run the code and change the code to do something different. 
+There are many open-source projects, some examples below. Make sure you can run the code, and edit the code (and run again) to do something different. 
 * [Tutorials in a UCL Module MPHY0030](https://github.com/YipengHu/MPHY0030/tree/main/tutorials)
 * [Examples on geeksforgeeks.org](https://www.geeksforgeeks.org/python-programming-examples/)
 * Example code in tutorials, e.g. [those on w3school.com](https://www.w3schools.com/python/python_examples.asp) 
 
 
 ------------------
-### <a name="search-for-help"></a>1.6 Search for help
+### <a name="search-for-help"></a>1.6 Search (or chat) for help
 > Search, search and search for more help!
 * Google
 * [StackOverflow](https://stackoverflow.com/)
+* Many modern large language models (e.g. Grok, Claude, Gemini, DeepSeek, ChatGPT, Copilot...) are excellent coding companions. This is a completely separate topic!
 
 
 
@@ -93,13 +96,13 @@ ________
 ### <a name="machine-learning-books"></a>2.1 Machine learning books
 > Read the books.  
 
-* [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) by Chritopher Bishop
+* [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) by Christopher Bishop
 * [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow et al., with [Lecture slides](https://www.deeplearningbook.org/lecture_slides.html)
 * [Element of Statistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) by Trevor Hastie et al.
 
 ------------------
 ### <a name="the-scikit-learn-package"></a>2.2 The scikit-learn package
-> Use scikit-learn as not only a Python library, but also a reference for learning machine learning. Get started with the basic topics. 
+> Use scikit-learn not only as a Python library, but also a reference for learning machine learning. Get started with the basic topics. 
 
 * [Install scikit-learn](https://scikit-learn.org/stable/install.html)
 * [Supervised learning - Linear Models](https://scikit-learn.org/stable/modules/linear_model.html)
