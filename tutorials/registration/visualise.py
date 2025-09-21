@@ -1,5 +1,5 @@
 # This is part of the tutorial materials in the UCL Module MPHY0041: Machine Learning in Medical Imaging
-# run train_*.py before visualise the results
+# run either or both train_*.py before visualise the results
 import os
 
 import numpy as np
