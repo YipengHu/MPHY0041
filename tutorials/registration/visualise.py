@@ -11,7 +11,7 @@ from utils import get_image_arrays
 PATH_TO_RESULT = 'result'
 _, test_images, test_indices = get_image_arrays()
 
-# to plot example slices of segmentation results
+# plot example slices of registration results
 for ext in ["-tf.npy","-pt.npy"]:  # find all npy files
     files = [f for f in os.listdir(PATH_TO_RESULT) if f.endswith(ext)]
     if len(files)==0: continue

@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 path_to_data = './data/promise12-data'
 path_to_save = './result' 
 
-# to plot example slices of segmentation results
+# plot example slices of segmentation results
 for ext in ["-tf.npy","-pt.npy"]:  # find all npy files
     files = [f for f in os.listdir(path_to_save) if f.endswith(ext)]  
     fmax = []  # find the maximum step

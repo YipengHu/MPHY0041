@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 PATH_TO_RESULT = 'result'
 
-# to plot example slices of segmentation results
+# plot example slices of generated results
 for ext in ["-tf.npy","-pt.npy"]:  # find all npy files
     files = [f for f in sorted(os.listdir(PATH_TO_RESULT)) if f.endswith(ext)]
     if len(files)==0: continue
