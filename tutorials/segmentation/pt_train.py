@@ -155,7 +155,7 @@ while step < total_steps:
 
         # --- testing during training (no validation labels available)
         if (step % freq_test) == 0:  
-            images_test, id_test = iter(test_loader).next()  # test one mini-batch
+            images_test, id_test = next(iter(test_loader))  # test one mini-batch
             if use_cuda:
                 images_test = images_test.cuda()
             preds_test = model(images_test)
