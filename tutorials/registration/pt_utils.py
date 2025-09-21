@@ -6,7 +6,7 @@ def get_reference_grid(grid_size):
     # grid_size: [height, width]
     return torch.stack(torch.meshgrid(
         torch.linspace(-1,1,grid_size[0]),
-        torch.linspace(-1,1,grid_size[1])), axis=0)
+        torch.linspace(-1,1,grid_size[1]), indexing='ij'), axis=0)
 
 
 def warp_images(images, ddfs, ref_grids=None):

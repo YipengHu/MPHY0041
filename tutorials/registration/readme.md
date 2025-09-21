@@ -29,6 +29,4 @@ python visualise.py  # save plotted results
 ## Other materials
 A series tutorials for image registration can be found in the [Learn2Reg tutorial](https://github.com/learn2reg/tutorials2019). 
 
-For 3D medical image registration using deep learning, see the [DeepReg](http://deepreg.net) package at [GitHub](https://github.com/DeepRegNet/DeepReg). 
-
-The local folder [legacy](./legacy) contains a 2d version using TensorFlow 1.
+For 3D medical image registration using deep learning, see [DeepReg](http://deepreg.net) and [MMONAI tutorials](https://github.com/Project-MONAI/tutorials/tree/main/3d_registration). 

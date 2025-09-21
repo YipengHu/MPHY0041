@@ -29,7 +29,7 @@ freq_test_save = 5000
 
 ## network
 reg_net = torch.hub.load('mateuszbuda/brain-segmentation-pytorch', 'unet',
-    in_channels=2, out_channels=32, init_features=32, pretrained=False)
+    in_channels=2, out_channels=32, init_features=32, pretrained=False, trust_repo=True)
 reg_net = torch.nn.Sequential(reg_net, torch.nn.Conv2d(32, 2, 1, bias=True))  # add a conv layer without activation
 if use_cuda:
     reg_net.cuda()

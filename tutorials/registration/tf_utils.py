@@ -7,8 +7,8 @@ from tensorflow_examples.models.pix2pix import pix2pix
 
 ### network and layers
 class UNet(tf.keras.Model):
-    def __init__(self, out_channels, num_channels_initial):
-        super(UNet, self).__init__()
+    def __init__(self, num_channels_initial, out_channels):
+        super().__init__()
         # the encoder/downsampler is a series of downsample blocks implemented in TensorFlow examples.
         self.down_stack = [
             pix2pix.downsample(num_channels_initial, 3, norm_type='instancenorm'),  
@@ -34,12 +34,11 @@ class UNet(tf.keras.Model):
         # Upsampling and establishing the skip connections
         for up, skip in zip(self.up_stack, reversed(skips)):
             x = up(x)
-            x = tf.concat([x, skip],axis=3)  # concat = tf.keras.layers.Concatenate()
+            x = tf.keras.layers.Concatenate(axis=3)([x, skip])
         return self.out_layer(x)
-
+    
     def build(self, input_shape):
-        inputs = tf.keras.layers.Input(shape=input_shape)
-        return tf.keras.Model(inputs=inputs, outputs=self.call(inputs))
+        super().build(input_shape)
 
 
 ### transformation utility functions

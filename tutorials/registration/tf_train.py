@@ -15,7 +15,6 @@ RESULT_PATH = 'result'
 
 ## read all the data
 images, test_images, test_indices = get_image_arrays()
-image_size = (images.shape[1], images.shape[2])
 num_data = images.shape[0]
 
 ## settings
@@ -27,8 +26,8 @@ freq_info_print = 500
 freq_test_save = 5000
 
 ## network
-reg_net = utils.UNet(out_channels=2, num_channels_initial=32)  # output ddfs in x,y two channels
-reg_net = reg_net.build(input_shape=image_size+(2,))
+reg_net = utils.UNet(num_channels_initial=32, out_channels=2)  # output ddfs in x,y two channels
+reg_net.build((None,images.shape[1],images.shape[2],2))
 optimizer = tf.optimizers.Adam(learning_rate)
 
 ## train step
