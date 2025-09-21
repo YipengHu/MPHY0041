@@ -40,9 +40,9 @@ You may never need command line tools by using a good IDE (see below), but it is
 > Set up your own integrated development environment (IDE). Cross-platform options are growing - browse a simple tutorial for your choice.  
 * [Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
-* A code editors and command line  
+* A code editor and command line  
 
-_Optional:_ Consider using a virtual environment to manage your multiple projects, e.g. using the [Conda environment](https://docs.conda.io/en/latest/). However, you can skip this now and come back when you grow familiar with Python.  
+_Optional:_ Consider using a development environment to manage your multiple projects, e.g. using the [Conda environment](https://docs.conda.io/en/latest/) or its faster alternative [Mamba/Micromamba](https://github.com/mamba-org/mamba), among many other options. You can start with the [builtin venv](https://docs.python.org/3/library/venv.html) and [pip](https://pip.pypa.io/en/stable/getting-started/) for now and come back when you grow familiar with Python.  
 
 
 ------------------

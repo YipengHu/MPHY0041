@@ -27,6 +27,8 @@ A list of tasks are detailed in the [Formative Assessment](docs/formative.md). C
 ## 4. Reading list
 A collection of books and research papers, relevant to deep learning for medical image analysis, is provided in the [Reading List](docs/reading.md).
 
+## Contact
+>Feel free to create an issue for questions or suggestions.  
 
 |Name                 | Email                       | Role                    |
 |---------------------|-----------------------------|-------------------------|
