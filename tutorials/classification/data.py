@@ -23,9 +23,9 @@ os.remove(temp_file)
 print('Done.')
 
 filename = os.path.join(DATA_PATH,'fetal.h5')
-print('Done.')
 print('Image and label data downloaded: %s' % filename)
 
 if not os.path.exists(RESULT_PATH):
     os.makedirs(RESULT_PATH)
     print('Result directory created: %s' % os.path.abspath(RESULT_PATH))
+    

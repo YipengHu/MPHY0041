@@ -16,10 +16,10 @@ This repository contains coding tutorials and exercises based on Python. While a
 ## 2. Deep learning tutorials
 Deep learning tutorials are in Python scripts, in the [tutorials](./tutorials) folder. 
 Individual tutorials may also require other libraries which will be specified in the readme.md in individual tutorial folders (see links below).
-- Image classification: [Anatomical structure classification on 2D ultrasound images](tutorials/classification)
-- Image segmentation: [Segmentation of organs on 3D MR images](tutorials/segmentation)
-- Image registration: [Unsupervised registration of CT image slices](tutorials/registration)
-- Image synthesis: [Ultrasound image simulation](tutorials/synthesis)
+- Image classification: [Anatomical structure classification on 2D ultrasound images](tutorials/classification/readme.md)
+- Image segmentation: [Segmentation of organs on 3D MR images](tutorials/segmentation/readme.md)
+- Image registration: [Unsupervised registration of CT image slices](tutorials/registration/readme.md)
+- Image synthesis: [Ultrasound image simulation](tutorials/synthesis/readme.md)
 
 ## 3. Formative assessment
 A list of tasks are detailed in the [Formative Assessment](docs/formative.md). Complete them for individual tutorials.

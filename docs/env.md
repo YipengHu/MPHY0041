@@ -14,8 +14,17 @@ A Linux/Unix-based operating system:
 - [Install Micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
 - Create a module PyTorch environment `mphy0041-pt`.
 ```bash
-micromamba create --name mphy0041-pt -c pytorch numpy matplotlib requests pytorch
+micromamba create -n mphy0041-pt python=3.12
+micromamba activate mphy0041-pt  
+pip install torch==2.7.1  
+pip install numpy matplotlib requests h5py
 ```
+
+- Deactivate the environment before switching/creating a new one:
+```bash
+micromamba deactivate 
+```
+
 - Create a module TensorFlow environment `mphy0041-tf`.
 ```bash
 micromamba create --name mphy0041-tf -c pytorch numpy matplotlib requests pytorch
@@ -29,4 +38,3 @@ micromamba create --name mphy0041-tf -c pytorch numpy matplotlib requests pytorc
 
 ## Git and GitHub
  _Optional_: Basics use of Git with GitHub repositories: e.g. [Work with Git](https://github.com/YipengHu/MPHY0030/blob/main/docs/dev_env_git.md)
- 
